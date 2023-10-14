@@ -19,8 +19,10 @@ shader_parameter/Color_1 = Color(0.47451, 0.623529, 0.992157, 1)
 shader_parameter/Color_2 = Color(0.129412, 0.611765, 0.796078, 1)
 
 [node name="character" type="CharacterBody3D"]
-collision_layer = 0
-collision_mask = 0
+collision_layer = 7
+collision_mask = 7
+floor_stop_on_slope = false
+floor_block_on_wall = false
 script = ExtResource("1_7egtf")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]
