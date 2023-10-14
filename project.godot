@@ -1,0 +1,98 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="1._prakt_darbs_10.grupa"
+run/main_scene="res://world.tscn"
+config/features=PackedStringArray("4.1", "Forward Plus")
+config/icon="res://icon.svg"
+
+[autoload]
+
+SimpleGrass="*res://addons/simplegrasstextured/singleton.tscn"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/linear_stairs/plugin.cfg", "res://addons/simplegrasstextured/plugin.cfg")
+
+[input]
+
+move_forward={
+"deadzone": 0.5,
+"events": [Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":-1,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"pressed":false,"keycode":0,"physical_keycode":87,"key_label":0,"unicode":119,"echo":false,"script":null)
+]
+}
+move_right={
+"deadzone": 0.5,
+"events": [Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":-1,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"pressed":false,"keycode":0,"physical_keycode":68,"key_label":0,"unicode":100,"echo":false,"script":null)
+]
+}
+move_left={
+"deadzone": 0.5,
+"events": [Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":-1,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"pressed":false,"keycode":0,"physical_keycode":65,"key_label":0,"unicode":97,"echo":false,"script":null)
+]
+}
+move_backward={
+"deadzone": 0.5,
+"events": [Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":-1,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"pressed":false,"keycode":0,"physical_keycode":83,"key_label":0,"unicode":115,"echo":false,"script":null)
+]
+}
+
+[layer_names]
+
+3d_physics/layer_1="world"
+3d_physics/layer_2="player"
+3d_physics/layer_3="props"
+
+[rendering]
+
+anti_aliasing/quality/msaa_2d=3
+anti_aliasing/quality/msaa_3d=3
+anti_aliasing/quality/screen_space_aa=1
+
+[shader_globals]
+
+sgt_player_position={
+"type": "vec3",
+"value": Vector3(1e+06, 1e+06, 1e+06)
+}
+sgt_player_mov={
+"type": "vec3",
+"value": Vector3(0, 0, 0)
+}
+sgt_normal_displacement={
+"type": "sampler2D",
+"value": "res://addons/simplegrasstextured/images/normal.png"
+}
+sgt_motion_texture={
+"type": "sampler2D",
+"value": "res://addons/simplegrasstextured/images/motion.png"
+}
+sgt_wind_direction={
+"type": "vec3",
+"value": Vector3(1, 0, 0)
+}
+sgt_wind_movement={
+"type": "vec3",
+"value": Vector2(0, 0)
+}
+sgt_wind_strength={
+"type": "float",
+"value": 0.15
+}
+sgt_wind_turbulence={
+"type": "float",
+"value": 1.0
+}
+sgt_wind_pattern={
+"type": "sampler2D",
+"value": "res://addons/simplegrasstextured/images/wind_pattern.png"
+}
