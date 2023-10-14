@@ -3,7 +3,5 @@
 # 10.grupa-Interakt-v-s-datorgrafikas-pamati
 Developojam spēli Godot spēles dzinējā :^) uhti~!
 
-https://github.com/Hollowex/10.grupa-Interakt-v-s-datorgrafikas-pamati/releases/tag/game
-
 ![image](https://github.com/Hollowex/10.grupa-Interakt-v-s-datorgrafikas-pamati/assets/50374449/156fb966-6bb3-468d-8e2e-f93d2631f52b)
 
