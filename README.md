@@ -10,10 +10,7 @@ some early dev stuff. Old 0.0.2 even had stairs and moving platforms! Could be a
 insane action-packed gameplay
 
 # NEW STUFF!!
-
 ![image](https://github.com/Hollowex/10.grupa-Interakt-v-s-datorgrafikas-pamati/assets/50374449/3229eaab-ac91-4df1-8ceb-12a1899ba4ab)
 ![image](https://github.com/Hollowex/10.grupa-Interakt-v-s-datorgrafikas-pamati/assets/50374449/7e998f34-204b-4e24-846b-27b98d449e14)
-
-
 
 ![image](https://github.com/Hollowex/10.grupa-Interakt-v-s-datorgrafikas-pamati/assets/50374449/156fb966-6bb3-468d-8e2e-f93d2631f52b)
